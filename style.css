@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#studentList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#studentList li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+}
+
+button.delete {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button.update {
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

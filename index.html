@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengelolaan Daftar Siswa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Pengelolaan Daftar Siswa</h1>
+        <div>
+            <input type="text" id="studentName" placeholder="Nama Siswa">
+            <input type="number" id="studentGrade" placeholder="Nilai Siswa">
+            <button onclick="addStudent()">Tambah Siswa</button>
+        </div>
+        <h2>Daftar Siswa</h2>
+        <ul id="studentList"></ul>
+        <h2>Operasi</h2>
+        <button onclick="calculateAverage()">Hitung Nilai Rata-Rata</button>
+        <button onclick="showHighestLowest()">Tampilkan Nilai Tertinggi & Terendah</button>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
